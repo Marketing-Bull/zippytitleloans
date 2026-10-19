@@ -1,32 +1,38 @@
 # Zippy Title Loans
 
-Static site for zippytitleloans.com, built for Cloudflare Pages. No build step. Same stack and design system as [zippytitle.com](https://zippytitle.com).
+Static site for zippytitleloans.com, hosted on Cloudflare Workers (static assets). No build step. Same stack and design system as [zippytitle.com](https://zippytitle.com).
 
 ```
-public/                     site files (HTML, CSS, JS, _headers, _redirects)
-public/assets/illustrations custom SVG illustrations used across the site
-functions/api/              Pages Functions: POST /api/apply, POST /api/contact
-lib/form.js                 shared form handling (validation + email via Resend)
-wrangler.toml
+public/                      site files (HTML, CSS, JS, _headers, _redirects)
+public/assets/illustrations  custom SVG illustrations used across the site
+src/worker.js                handles POST /api/apply and POST /api/contact (everything else is served as static assets)
+src/form.js                  shared form handling (validation + email via Resend)
+wrangler.jsonc
 ```
 
 Pages keep the old WordPress URLs (`/about/`, `/apply-now/`, `/contact/`, `/terms-of-use/`, `/thank-you/`). The header and footer are repeated in each HTML file, so edit them everywhere.
 
 ## Deploy (Git integration, recommended)
 
-1. Cloudflare dashboard > Workers & Pages > Create > Pages > Connect to Git, pick this repo.
-2. Framework preset: **None**. Build command: *(empty)*. Build output directory: `public`.
-3. Settings > Variables and Secrets (Production), for the application and contact forms:
+1. Cloudflare dashboard > Workers & Pages > Create > Import a repository, pick this repo.
+2. Project name `zippytitleloans`. Build command: *(empty)*. Deploy command: `npx wrangler deploy`.
+3. Settings > Variables and Secrets, for the application and contact forms:
    - `RESEND_API_KEY` (secret), `CONTACT_TO`, `CONTACT_FROM`
    - `CONTACT_FROM` must be on a domain verified in Resend.
-4. Custom domains > add `zippytitleloans.com` and `www.zippytitleloans.com`. If the domain's DNS is on Cloudflare, records are created automatically.
+4. Settings > Domains & Routes > add `zippytitleloans.com` and `www.zippytitleloans.com`. The domain's DNS must be on Cloudflare; the records are created for you.
+
+Every push to the production branch redeploys.
 
 ## Deploy (CLI)
 
 ```
 npm install
-npx wrangler pages deploy
+npx wrangler login
+npx wrangler deploy
+npx wrangler secret put RESEND_API_KEY
 ```
+
+Set `CONTACT_TO` and `CONTACT_FROM` as plain variables in the dashboard (or add them under `vars` in `wrangler.jsonc`).
 
 ## Local dev
 

@@ -1,7 +1,7 @@
-// Shared helpers for the form endpoints in functions/api/.
+// Form handling for the endpoints in src/worker.js.
 // Forms are emailed to Zippy Title Loans using Resend (https://resend.com).
 //
-// Required environment variables (Pages > Settings > Variables and Secrets):
+// Required variables (Workers > zippytitleloans > Settings > Variables and Secrets):
 //   RESEND_API_KEY  (secret)  API key from Resend
 //   CONTACT_TO                inbox that receives submissions, e.g. hello@zippytitleloans.com
 //   CONTACT_FROM              verified sender, e.g. "Zippy Title Loans <noreply@zippytitleloans.com>"
