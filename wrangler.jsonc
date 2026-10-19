@@ -5,7 +5,7 @@
   // Form emails (see src/form.js). RESEND_API_KEY is a secret: set it in the dashboard.
   "vars": {
     "CONTACT_TO": "leads@getmarketingbull.com",
-    "CONTACT_FROM": "Zippy Title Loans <noreply@zippytitle.com>"
+    "CONTACT_FROM": "Zippy Title Loans <noreply@getmarketingbull.com>"
   },
   "assets": {
     "directory": "./public",
