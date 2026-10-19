@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="260" cy="226" r="196" fill="#DCEEFF"/>
+  <!-- clipboard -->
+  <g stroke="#112337" stroke-width="5">
+    <rect x="150" y="70" width="210" height="300" rx="16" fill="#D5E100"/>
+    <rect x="170" y="100" width="170" height="250" rx="8" fill="#ffffff"/>
+    <rect x="212" y="56" width="86" height="34" rx="10" fill="#112337"/>
+  </g>
+  <g stroke="#112337" stroke-width="4">
+    <rect x="190" y="130" width="22" height="22" rx="5" fill="#D5E100"/>
+    <rect x="190" y="180" width="22" height="22" rx="5" fill="#D5E100"/>
+    <rect x="190" y="230" width="22" height="22" rx="5" fill="#ffffff"/>
+    <path d="M194 141l5 5 9-10M194 191l5 5 9-10" stroke-width="3.5"/>
+    <path d="M228 141h90M228 191h70M228 241h84M190 290h128M190 316h90" stroke-width="4"/>
+  </g>
+  <!-- pencil -->
+  <g stroke="#112337" stroke-width="5" transform="rotate(32 380 240)">
+    <rect x="364" y="140" width="32" height="150" rx="6" fill="#F9A8D4"/>
+    <path d="M364 290l16 32 16-32z" fill="#ffffff"/>
+    <path d="M364 170h32"/>
+  </g>
+  <!-- house badge -->
+  <g stroke="#112337" stroke-width="4">
+    <circle cx="112" cy="300" r="42" fill="#ffffff"/>
+    <path d="M88 304l24-22 24 22v20H88z" fill="#D5E100"/>
+    <rect x="106" y="308" width="12" height="16" fill="#112337"/>
+  </g>
+  <path d="M420 110l8 8M428 110l-8 8M96 150l8 8M104 150l-8 8" stroke="#112337" stroke-width="3.5"/>
+  <circle cx="430" cy="370" r="5" fill="#112337"/>
+</svg>

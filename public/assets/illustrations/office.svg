@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="10" width="500" height="360" rx="28" fill="#DCEEFF"/>
+  <circle cx="420" cy="80" r="34" fill="#D5E100" stroke="#112337" stroke-width="4"/>
+  <path d="M60 92c0-12 10-20 22-18 6-10 20-12 28-2 12-2 20 6 18 20z" fill="#ffffff" stroke="#112337" stroke-width="4"/>
+  <!-- water -->
+  <path d="M10 318h500v24a28 28 0 0 1-28 28H38a28 28 0 0 1-28-28z" fill="#8EC5FF"/>
+  <path d="M40 340c12-6 24-6 36 0s24 6 36 0M300 352c12-6 24-6 36 0s24 6 36 0" stroke="#ffffff" stroke-width="4"/>
+  <path d="M10 318h500" stroke="#112337" stroke-width="4"/>
+  <!-- building -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="170" y="96" width="180" height="222" rx="6" fill="#ffffff"/>
+    <rect x="160" y="84" width="200" height="18" rx="4" fill="#D5E100"/>
+    <rect x="236" y="262" width="48" height="56" rx="4" fill="#112337"/>
+    <path d="M260 262v56" stroke="#D5E100" stroke-width="3"/>
+    <rect x="214" y="236" width="92" height="20" rx="4" fill="#D5E100"/>
+  </g>
+  <text x="260" y="251" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="12" font-weight="800" fill="#112337" letter-spacing="1">313 DATURA</text>
+  <g stroke="#112337" stroke-width="3.5" fill="#8EC5FF">
+    <rect x="190" y="118" width="32" height="26" rx="3"/><rect x="244" y="118" width="32" height="26" rx="3"/><rect x="298" y="118" width="32" height="26" rx="3"/>
+    <rect x="190" y="160" width="32" height="26" rx="3"/><rect x="244" y="160" width="32" height="26" rx="3" fill="#D5E100"/><rect x="298" y="160" width="32" height="26" rx="3"/>
+    <rect x="190" y="202" width="32" height="26" rx="3"/><rect x="298" y="202" width="32" height="26" rx="3"/>
+  </g>
+  <rect x="244" y="202" width="32" height="26" rx="3" fill="#8EC5FF" stroke="#112337" stroke-width="3.5"/>
+  <!-- side buildings -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="370" y="176" width="90" height="142" rx="6" fill="#F4E4C1"/>
+    <rect x="70" y="196" width="80" height="122" rx="6" fill="#F9A8D4"/>
+  </g>
+  <g stroke="#112337" stroke-width="3" fill="#ffffff">
+    <rect x="386" y="194" width="22" height="20" rx="3"/><rect x="422" y="194" width="22" height="20" rx="3"/>
+    <rect x="386" y="230" width="22" height="20" rx="3"/><rect x="422" y="230" width="22" height="20" rx="3"/>
+    <rect x="86" y="214" width="20" height="18" rx="3"/><rect x="114" y="214" width="20" height="18" rx="3"/>
+    <rect x="86" y="248" width="20" height="18" rx="3"/><rect x="114" y="248" width="20" height="18" rx="3"/>
+  </g>
+  <!-- palms -->
+  <g stroke="#112337" stroke-width="4">
+    <path d="M38 318c-4-50 4-96 22-138l10 4c-16 40-22 86-18 134z" fill="#C98B4B"/>
+    <path d="M64 184c-22-18-54-18-74 0 24-4 48 2 70 14z" fill="#3BAA7A"/>
+    <path d="M64 184c14-24 42-34 68-24-24 2-44 14-60 32z" fill="#2E8F63"/>
+    <path d="M64 184c-2-28-22-46-50-48 20 12 34 28 42 54z" fill="#2E8F63"/>
+    <path d="M64 184c22-4 44 8 54 30-18-14-36-20-58-20z" fill="#3BAA7A"/>
+    <path d="M478 318c4-50-4-96-22-138l-10 4c16 40 22 86 18 134z" fill="#C98B4B"/>
+    <path d="M452 184c22-18 54-18 74 0-24-4-48 2-70 14z" fill="#3BAA7A"/>
+    <path d="M452 184c-14-24-42-34-68-24 24 2 44 14 60 32z" fill="#2E8F63"/>
+    <path d="M452 184c-22-4-44 8-54 30 18-14 36-20 58-20z" fill="#3BAA7A"/>
+  </g>
+</svg>

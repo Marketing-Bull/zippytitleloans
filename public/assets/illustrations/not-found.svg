@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="180" cy="150" r="136" fill="#DCEEFF"/>
+  <path d="M60 262c70-14 170-14 240 0" stroke="#112337" stroke-width="4"/>
+  <g stroke="#112337" stroke-width="4">
+    <path d="M180 262V70"/>
+    <path d="M108 86h132l18 18-18 18H108z" fill="#D5E100"/>
+    <path d="M252 138H120l-18 18 18 18h132z" fill="#ffffff"/>
+  </g>
+  <text x="174" y="110" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="17" font-weight="800" fill="#112337" letter-spacing="1">THIS WAY?</text>
+  <text x="186" y="162" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="17" font-weight="800" fill="#112337" letter-spacing="1">NOPE</text>
+  <path d="M64 70l7 7M71 70l-7 7M290 210l7 7M297 210l-7 7" stroke="#112337" stroke-width="3"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="260" cy="226" r="196" fill="#DCEEFF"/>
+  <!-- envelope -->
+  <g stroke="#112337" stroke-width="5">
+    <rect x="110" y="190" width="240" height="160" rx="14" fill="#ffffff"/>
+    <path d="M110 204l120 86 120-86" fill="#D5E100"/>
+    <path d="M110 340l90-70M350 340l-90-70"/>
+  </g>
+  <!-- chat bubbles -->
+  <g stroke="#112337" stroke-width="5">
+    <path d="M290 70h150a20 20 0 0 1 20 20v62a20 20 0 0 1-20 20h-92l-30 26v-26h-28a20 20 0 0 1-20-20V90a20 20 0 0 1 20-20z" fill="#D5E100"/>
+    <circle cx="326" cy="121" r="7" fill="#112337"/>
+    <circle cx="365" cy="121" r="7" fill="#112337"/>
+    <circle cx="404" cy="121" r="7" fill="#112337"/>
+  </g>
+  <!-- phone -->
+  <g stroke="#112337" stroke-width="5">
+    <path d="M92 96c-8 8-8 22 0 40 14 30 38 54 68 68 18 8 32 8 40 0l14-14c4-4 4-10 0-14l-22-18c-4-4-10-4-14 0l-10 10c-18-8-34-24-42-42l10-10c4-4 4-10 0-14L118 80c-4-4-10-4-14 0z" fill="#F9A8D4"/>
+  </g>
+  <path d="M420 270l8 8M428 270l-8 8M80 300l8 8M88 300l-8 8" stroke="#112337" stroke-width="3.5"/>
+  <circle cx="400" cy="340" r="5" fill="#112337"/>
+  <circle cx="230" cy="80" r="5" fill="#112337"/>
+</svg>

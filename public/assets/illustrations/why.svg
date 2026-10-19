@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="260" cy="226" r="196" fill="#EEF4A6"/>
+  <!-- growth chart -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="300" y="60" width="170" height="120" rx="12" fill="#ffffff"/>
+    <path d="M322 154l36-32 28 18 56-52" stroke="#2E8F63" stroke-width="5"/>
+    <path d="M426 88h16v16" stroke="#2E8F63" stroke-width="5"/>
+    <path d="M322 160h126" stroke-width="3"/>
+  </g>
+  <!-- ground -->
+  <path d="M48 392c70-20 360-22 424 0-40 18-384 18-424 0z" fill="#F4E4C1" stroke="#112337" stroke-width="4"/>
+  <!-- house under rehab -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="96" y="236" width="200" height="156" rx="6" fill="#ffffff"/>
+    <path d="M96 314h200V392H96z" fill="#DCEEFF"/>
+    <path d="M196 314v78" stroke-width="2" stroke-dasharray="6 8"/>
+    <path d="M76 246 196 152l120 94z" fill="#D5E100"/>
+    <rect x="172" y="320" width="44" height="72" rx="4" fill="#112337"/>
+    <rect x="116" y="262" width="44" height="38" rx="4" fill="#8EC5FF"/>
+    <rect x="232" y="262" width="44" height="38" rx="4" fill="#8EC5FF"/>
+    <path d="M138 262v38M116 281h44M254 262v38M232 281h44" stroke-width="3"/>
+  </g>
+  <!-- ladder -->
+  <g stroke="#112337" stroke-width="4">
+    <path d="M318 392l-30-170M358 392l-30-170"/>
+    <path d="M292 244h40M296 272h40M301 300h40M306 328h40M311 356h40M316 384h40" stroke-width="3.5"/>
+  </g>
+  <!-- paint roller -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="380" y="200" width="70" height="28" rx="10" fill="#D5E100"/>
+    <path d="M450 214h16v34h-50v26"/>
+    <rect x="408" y="274" width="16" height="44" rx="6" fill="#ffffff"/>
+  </g>
+  <!-- paint bucket -->
+  <g stroke="#112337" stroke-width="4">
+    <path d="M396 352h56l-6 40h-44z" fill="#8EC5FF"/>
+    <path d="M396 352c0-14 56-14 56 0" fill="#D5E100"/>
+  </g>
+  <!-- toolbox -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="18" y="352" width="74" height="40" rx="6" fill="#F9A8D4"/>
+    <path d="M40 352v-12h30v12M18 368h74"/>
+  </g>
+  <path d="M78 140l8 8M86 140l-8 8M470 220l8 8M478 220l-8 8" stroke="#112337" stroke-width="3.5"/>
+  <circle cx="240" cy="110" r="5" fill="#112337"/>
+</svg>

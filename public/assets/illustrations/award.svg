@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="160" cy="150" r="130" fill="#DCEEFF"/>
+  <g stroke="#112337" stroke-width="4">
+    <path d="M100 66h120v34c0 40-26 70-60 70s-60-30-60-70z" fill="#D5E100"/>
+    <path d="M100 80H72c0 34 16 52 36 54M220 80h28c0 34-16 52-36 54"/>
+    <path d="M146 168h28v32h-28z" fill="#D5E100"/>
+    <rect x="114" y="200" width="92" height="22" rx="6" fill="#ffffff"/>
+    <rect x="102" y="222" width="116" height="30" rx="8" fill="#112337"/>
+    <path d="M160 92c-6-10-24-8-24 6 0 12 24 26 24 26s24-14 24-26c0-14-18-16-24-6z" fill="#F9A8D4"/>
+  </g>
+  <text x="160" y="243" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="13" font-weight="800" fill="#D5E100" letter-spacing="1.5">#1 BY MOM</text>
+  <g stroke="#112337" stroke-width="3.5">
+    <path d="M60 52l4 12 12 4-12 4-4 12-4-12-12-4 12-4z" fill="#ffffff"/>
+    <path d="M262 168l3 9 9 3-9 3-3 9-3-9-9-3 9-3z" fill="#ffffff"/>
+  </g>
+  <path d="M256 54l7 7M263 54l-7 7M48 190l7 7M55 190l-7 7" stroke="#112337" stroke-width="3"/>
+</svg>

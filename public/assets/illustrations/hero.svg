@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="290" cy="250" r="210" fill="#DCEEFF"/>
+  <circle cx="290" cy="250" r="210" fill="#ffffff" opacity=".35"/>
+  <!-- sun with shades -->
+  <g stroke="#112337" stroke-width="4">
+    <circle cx="438" cy="112" r="40" fill="#D5E100"/>
+    <path d="M412 106h52" />
+    <path d="M414 106c0 12 6 18 14 18s12-6 12-18zM436 106c0 12 6 18 14 18s12-6 12-18z" fill="#112337"/>
+    <path d="M426 134c6 5 18 5 24 0"/>
+  </g>
+  <g stroke="#D5E100" stroke-width="5">
+    <path d="M438 52v-14M498 112h14M480 70l10-10M480 154l10 10M396 70l-10-10"/>
+  </g>
+  <!-- clouds -->
+  <path d="M120 128c0-14 12-24 26-22 6-12 24-14 32-2 14-2 24 8 22 22z" fill="#ffffff" stroke="#112337" stroke-width="4"/>
+  <!-- ground -->
+  <path d="M70 412c60-26 360-30 430 0 0 0-20 22-215 22S70 412 70 412z" fill="#F4E4C1" stroke="#112337" stroke-width="4"/>
+  <!-- palm tree -->
+  <g stroke="#112337" stroke-width="4">
+    <path d="M150 418c-6-70 4-140 30-206l14 6c-22 64-30 132-26 200z" fill="#C98B4B"/>
+    <path d="M160 360l14 4M158 320l16 4M162 280l16 5M168 244l15 5" stroke-width="3"/>
+    <path d="M188 214c-30-28-74-30-104-8 34-6 66 2 96 20z" fill="#3BAA7A"/>
+    <path d="M188 214c-4-40-34-68-74-72 28 16 48 40 60 76z" fill="#2E8F63"/>
+    <path d="M188 214c18-36 56-52 96-40-34 4-62 20-84 48z" fill="#3BAA7A"/>
+    <path d="M188 214c34-6 66 12 80 44-26-20-54-30-86-30z" fill="#2E8F63"/>
+    <path d="M188 214c-26 2-50 22-58 52 18-22 40-36 64-40z" fill="#3BAA7A"/>
+    <circle cx="184" cy="222" r="7" fill="#8A5A2B"/>
+    <circle cx="196" cy="224" r="7" fill="#8A5A2B"/>
+  </g>
+  <!-- house -->
+  <g stroke="#112337" stroke-width="4">
+    <rect x="236" y="262" width="210" height="150" rx="6" fill="#ffffff"/>
+    <path d="M214 272 341 170l127 102z" fill="#D5E100"/>
+    <path d="M396 210v-38h26v59" fill="#ffffff"/>
+    <rect x="320" y="330" width="44" height="82" rx="4" fill="#112337"/>
+    <circle cx="354" cy="372" r="3" fill="#D5E100" stroke="none"/>
+    <rect x="256" y="300" width="46" height="40" rx="4" fill="#8EC5FF"/>
+    <path d="M279 300v40M256 320h46" stroke-width="3"/>
+    <rect x="382" y="300" width="46" height="40" rx="4" fill="#8EC5FF"/>
+    <path d="M405 300v40M382 320h46" stroke-width="3"/>
+    <circle cx="341" cy="236" r="16" fill="#8EC5FF"/>
+    <path d="M341 220v32M325 236h32" stroke-width="3"/>
+    <path d="M250 412h-8M440 412h8"/>
+  </g>
+  <!-- bushes -->
+  <g stroke="#112337" stroke-width="4" fill="#3BAA7A">
+    <path d="M236 412c-14 0-22-10-18-22 2-10 14-14 22-8 6-8 20-6 22 4 10 0 14 14 6 22z"/>
+    <path d="M446 412c14 0 22-10 18-22-2-10-14-14-22-8-6-8-20-6-22 4-10 0-14 14-6 22z"/>
+  </g>
+  <!-- funded sign -->
+  <g stroke="#112337" stroke-width="4">
+    <path d="M488 430v-96"/>
+    <rect x="452" y="300" width="88" height="44" rx="8" fill="#D5E100" transform="rotate(-6 496 322)"/>
+    <text x="496" y="330" text-anchor="middle" transform="rotate(-6 496 322)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="17" font-weight="800" fill="#112337" stroke="none" letter-spacing="1">FUNDED</text>
+  </g>
+  <!-- flying bills -->
+  <g stroke="#112337" stroke-width="4">
+    <g transform="rotate(-18 110 300)">
+      <rect x="66" y="278" width="92" height="48" rx="6" fill="#D5E100"/>
+      <circle cx="112" cy="302" r="13" fill="#ffffff"/>
+      <text x="112" y="309" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="800" fill="#112337" stroke="none">$</text>
+    </g>
+    <g transform="rotate(14 250 110)">
+      <rect x="208" y="88" width="84" height="44" rx="6" fill="#D5E100"/>
+      <circle cx="250" cy="110" r="12" fill="#ffffff"/>
+      <text x="250" y="117" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="18" font-weight="800" fill="#112337" stroke="none">$</text>
+    </g>
+  </g>
+  <g stroke="#ffffff" stroke-width="4" opacity=".9">
+    <path d="M40 270h24M30 290h20M196 70h-22M200 88h-30"/>
+  </g>
+</svg>

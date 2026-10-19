@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="260" cy="226" r="196" fill="#DCEEFF"/>
+  <!-- bolt mascot -->
+  <g stroke="#112337" stroke-width="5">
+    <path d="M292 46 170 236h84l-34 160 150-218h-90l46-132z" fill="#D5E100"/>
+  </g>
+  <!-- face -->
+  <g stroke="#112337" stroke-width="4">
+    <path d="M214 196h88" />
+    <path d="M216 196c0 16 8 24 20 24s16-8 16-24zM264 196c0 16 8 24 20 24s16-8 16-24z" fill="#112337"/>
+    <path d="M236 240c10 10 30 10 40 0"/>
+  </g>
+  <!-- arms -->
+  <g stroke="#112337" stroke-width="5">
+    <path d="M186 214c-30-4-48-26-54-54"/>
+    <path d="M330 186c28-12 44-36 46-62"/>
+  </g>
+  <g stroke="#112337" stroke-width="4">
+    <circle cx="130" cy="152" r="12" fill="#ffffff"/>
+    <circle cx="378" cy="116" r="12" fill="#ffffff"/>
+  </g>
+  <!-- confetti -->
+  <g stroke="#112337" stroke-width="3.5">
+    <rect x="96" y="80" width="18" height="10" rx="2" fill="#F9A8D4" transform="rotate(-24 105 85)"/>
+    <rect x="420" y="210" width="18" height="10" rx="2" fill="#8EC5FF" transform="rotate(30 429 215)"/>
+    <rect x="402" y="60" width="16" height="10" rx="2" fill="#D5E100" transform="rotate(12 410 65)"/>
+    <rect x="84" y="270" width="16" height="10" rx="2" fill="#D5E100" transform="rotate(-40 92 275)"/>
+    <rect x="390" y="320" width="18" height="10" rx="2" fill="#F9A8D4" transform="rotate(18 399 325)"/>
+  </g>
+  <path d="M150 340l8 8M158 340l-8 8M440 150l8 8M448 150l-8 8M196 60l8 8M204 60l-8 8" stroke="#112337" stroke-width="3.5"/>
+  <circle cx="340" cy="290" r="5" fill="#112337"/>
+  <circle cx="120" cy="210" r="5" fill="#112337"/>
+  <!-- shadow -->
+  <ellipse cx="236" cy="410" rx="70" ry="10" fill="#112337" opacity=".15"/>
+</svg>

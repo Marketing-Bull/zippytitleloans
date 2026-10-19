@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="120" cy="92" r="80" fill="#EEF4A6"/>
+  <g stroke="#112337" stroke-width="3.5">
+    <rect x="78" y="22" width="84" height="148" rx="14" fill="#ffffff"/>
+    <path d="M108 32h24"/>
+    <rect x="90" y="50" width="60" height="12" rx="4" fill="#DCEEFF"/>
+    <rect x="90" y="70" width="60" height="12" rx="4" fill="#DCEEFF"/>
+    <rect x="90" y="90" width="60" height="12" rx="4" fill="#DCEEFF"/>
+    <rect x="90" y="118" width="60" height="18" rx="9" fill="#D5E100"/>
+    <path d="M106 56h18M106 76h28M106 96h22" stroke-width="3"/>
+    <path d="M94 56l3 3 5-5M94 76l3 3 5-5M94 96l3 3 5-5" stroke="#2E8F63" stroke-width="3"/>
+  </g>
+  <g stroke="#112337" stroke-width="3.5">
+    <circle cx="192" cy="56" r="24" fill="#ffffff"/>
+    <path d="M192 42v14l9 7"/>
+    <path d="M186 26h12M192 26v6"/>
+  </g>
+  <text x="196" y="100" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14" font-weight="800" fill="#112337">&lt;2 MIN</text>
+  <path d="M40 112l6 6M46 112l-6 6M206 138l6 6M212 138l-6 6" stroke="#112337" stroke-width="3"/>
+  <circle cx="52" cy="70" r="4" fill="#112337"/>
+</svg>
