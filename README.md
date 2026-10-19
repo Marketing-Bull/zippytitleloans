@@ -17,7 +17,7 @@ Pages keep the old WordPress URLs (`/about/`, `/apply-now/`, `/contact/`, `/term
 1. Cloudflare dashboard > Workers & Pages > Create > Import a repository, pick this repo.
 2. Project name `zippytitleloans`. Build command: *(empty)*. Deploy command: `npx wrangler deploy`.
 3. Settings > Variables and Secrets, for the application and contact forms:
-   - `RESEND_API_KEY` (secret), `CONTACT_TO`, `CONTACT_FROM`
+   - `RESEND_API_KEY` (secret). `CONTACT_TO` and `CONTACT_FROM` are already set in `wrangler.jsonc`.
    - `CONTACT_FROM` must be on a domain verified in Resend.
 4. Settings > Domains & Routes > add `zippytitleloans.com` and `www.zippytitleloans.com`. The domain's DNS must be on Cloudflare; the records are created for you.
 
@@ -32,7 +32,7 @@ npx wrangler deploy
 npx wrangler secret put RESEND_API_KEY
 ```
 
-Set `CONTACT_TO` and `CONTACT_FROM` as plain variables in the dashboard (or add them under `vars` in `wrangler.jsonc`).
+`CONTACT_TO` and `CONTACT_FROM` live under `vars` in `wrangler.jsonc`.
 
 ## Local dev
 

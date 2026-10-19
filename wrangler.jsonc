@@ -2,6 +2,11 @@
   "name": "zippytitleloans",
   "main": "src/worker.js",
   "compatibility_date": "2025-01-01",
+  // Form emails (see src/form.js). RESEND_API_KEY is a secret: set it in the dashboard.
+  "vars": {
+    "CONTACT_TO": "leads@getmarketingbull.com",
+    "CONTACT_FROM": "Zippy Title Loans <noreply@zippytitle.com>"
+  },
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
