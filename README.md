@@ -21,7 +21,7 @@ Pages keep the old WordPress URLs (`/about/`, `/apply-now/`, `/contact/`, `/term
    - `CONTACT_FROM` must be on a domain verified in Resend.
 4. Settings > Domains & Routes > add `zippytitleloans.com` and `www.zippytitleloans.com`. The domain's DNS must be on Cloudflare; the records are created for you.
 
-Every push to `main` redeploys.
+Every push to `main` redeploys. Pushes to other branches only upload a preview version and leave the live site unchanged.
 
 ## Deploy (CLI)
 
