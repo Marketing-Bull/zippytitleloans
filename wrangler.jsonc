@@ -2,6 +2,9 @@
   "name": "zippytitleloans",
   "main": "src/worker.js",
   "compatibility_date": "2025-01-01",
+  "observability": {
+    "enabled": true
+  },
   // Form emails (see src/form.js). RESEND_API_KEY is a secret: set it in the dashboard.
   "vars": {
     "CONTACT_TO": "leads@getmarketingbull.com",
