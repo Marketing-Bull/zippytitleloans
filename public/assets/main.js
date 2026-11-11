@@ -52,7 +52,7 @@ if (stepped) {
   show(0);
 }
 
-// Forms -> /api/* (Cloudflare Pages Functions), then the thank-you page
+// Forms -> /api/* (src/worker.js), then the thank-you page
 document.querySelectorAll('form[action^="/api/"]').forEach((form) => {
   const status = form.querySelector('.form-status');
   const button = form.querySelector('button[type="submit"]');
@@ -74,6 +74,8 @@ document.querySelectorAll('form[action^="/api/"]').forEach((form) => {
       status.className = 'form-status err';
       status.textContent = err.message;
       button.disabled = false;
+      // Turnstile tokens are single-use, so get a fresh one for the next try.
+      window.turnstile?.reset(form.querySelector('.cf-turnstile'));
     }
   });
 });

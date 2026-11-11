@@ -18,6 +18,7 @@ Pages keep the old WordPress URLs (`/about/`, `/apply-now/`, `/contact/`, `/term
 2. Project name `zippytitleloans`. Build command: *(empty)*. Deploy command: `npx wrangler deploy`.
 3. Settings > Variables and Secrets, for the application and contact forms:
    - `RESEND_API_KEY` (secret). `CONTACT_TO` and `CONTACT_FROM` are already set in `wrangler.jsonc`.
+   - `TURNSTILE_SECRET_KEY` (secret), from the "zippytitleloans.com forms" widget under Turnstile in the Cloudflare dashboard. Its site key is in the form markup on `/apply-now/` and `/contact/`.
    - `CONTACT_FROM` must be on a domain verified in Resend.
 4. Settings > Domains & Routes > add `zippytitleloans.com` and `www.zippytitleloans.com`. The domain's DNS must be on Cloudflare; the records are created for you.
 
@@ -30,6 +31,7 @@ npm install
 npx wrangler login
 npx wrangler deploy
 npx wrangler secret put RESEND_API_KEY
+npx wrangler secret put TURNSTILE_SECRET_KEY
 ```
 
 `CONTACT_TO` and `CONTACT_FROM` live under `vars` in `wrangler.jsonc`.
@@ -38,6 +40,8 @@ npx wrangler secret put RESEND_API_KEY
 
 ```
 npm install
-printf 'RESEND_API_KEY=...\nCONTACT_TO=you@example.com\nCONTACT_FROM=Zippy Title Loans <noreply@getmarketingbull.com>\n' > .dev.vars
+printf 'RESEND_API_KEY=...\nCONTACT_TO=you@example.com\nCONTACT_FROM=Zippy Title Loans <noreply@getmarketingbull.com>\nTURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA\n' > .dev.vars
 npm run dev
 ```
+
+The `TURNSTILE_SECRET_KEY` above is Cloudflare's test key that always passes.
