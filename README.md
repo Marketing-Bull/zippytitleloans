@@ -44,4 +44,4 @@ printf 'RESEND_API_KEY=...\nCONTACT_TO=you@example.com\nCONTACT_FROM=Zippy Title
 npm run dev
 ```
 
-The `TURNSTILE_SECRET_KEY` above is Cloudflare's test key that always passes.
+The `TURNSTILE_SECRET_KEY` above is Cloudflare's always-pass test secret. It only accepts test tokens, so while testing locally also change the `data-sitekey` in `public/apply-now/index.html` and `public/contact/index.html` to the matching test site key `1x00000000000000000000AA`, and don't commit that change. To test with the real widget instead, put its real secret key in `.dev.vars`.
